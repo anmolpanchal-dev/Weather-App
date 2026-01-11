@@ -1,0 +1,38 @@
+body {
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+}
+
+.weather-app {
+  background: white;
+  padding: 25px;
+  width: 300px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.result {
+  margin-top: 15px;
+  font-size: 16px;
+}
